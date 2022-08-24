@@ -23,6 +23,7 @@ $(call inherit-product, device/realme/spaced/device.mk)
 
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+EVO_BUILD_TYPE := UNOFFICIAL
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
