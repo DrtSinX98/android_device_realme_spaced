@@ -16,3 +16,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/evolution_spaced.mk
+
+COMMON_LUNCH_CHOICES := \
+    evolution_spaced-userdebug \
+    evolution_spaced-eng
